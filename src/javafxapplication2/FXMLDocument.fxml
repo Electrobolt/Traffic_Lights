@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="463.0" prefWidth="637.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="javafxapplication2.FXMLDocumentController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2f2f2f" height="85.0" layoutY="183.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="358.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2f2f2f" height="85.0" layoutX="269.0" layoutY="60.0" rotate="-47.7" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="358.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2f2f2f" height="94.0" layoutX="154.0" layoutY="357.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="358.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="24.0" layoutX="211.0" layoutY="251.0" stroke="BLACK" strokeType="INSIDE" width="75.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="24.0" layoutX="346.0" layoutY="304.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="69.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="24.0" layoutX="316.0" layoutY="136.0" rotate="-47.9" stroke="BLACK" strokeType="INSIDE" width="69.0" />
+      <Ellipse fx:id="groad1" fill="#1fa40d" layoutX="223.0" layoutY="263.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="yroad1" fill="#e8bb08" layoutX="246.0" layoutY="263.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="rroad1" fill="#ff1f1f" layoutX="270.0" layoutY="263.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="rroad3" fill="#ff1f1f" layoutX="380.0" layoutY="294.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="yroad3" fill="#e8bb08" layoutX="381.0" layoutY="316.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="groad3" fill="#1fa40d" layoutX="380.0" layoutY="340.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="groad2" fill="#1fa40d" layoutX="339.0" layoutY="160.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="yroad2" fill="#e8bb08" layoutX="351.0" layoutY="148.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fx:id="rroad2" fill="#ff1f1f" layoutX="363.0" layoutY="136.0" radiusX="12.0" radiusY="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="141.0" layoutY="273.0" text="Route1" />
+      <Label layoutX="277.0" layoutY="140.0" text="Route2" />
+      <Label layoutX="404.0" layoutY="298.0" text="Route3" />
+      <Button fx:id="btn_auto" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#passerModeAuto" prefHeight="25.0" prefWidth="106.0" text="Mode auto" />
+      <Button fx:id="btn_manuel" layoutX="509.0" layoutY="361.0" mnemonicParsing="false" onAction="#passerModeManuel" prefHeight="25.0" prefWidth="116.0" text="Mode manuel" />
+      <Button fx:id="btnCouleur" layoutX="509.0" layoutY="397.0" mnemonicParsing="false" onAction="#changerCouleur" prefHeight="49.0" prefWidth="116.0" text="Changer couleur" />
+      <Label fx:id="chrono1" layoutX="213.0" layoutY="286.0" text="Chrono:" />
+      <Label fx:id="chrono2" layoutX="306.0" layoutY="94.0" text="Chrono:" />
+      <Label fx:id="chrono3" layoutX="402.0" layoutY="332.0" text="Chrono:" />
+      <Line endX="210.5" layoutX="95.0" layoutY="225.0" startX="-100.0" stroke="#fffafa" />
+      <Line endX="130.5" endY="-247.0" layoutX="448.0" layoutY="210.0" startX="-100.0" stroke="WHITE" />
+      <Line endX="113.0" endY="-258.0" layoutX="218.0" layoutY="509.0" startX="113.5" startY="-30.0" stroke="WHITE" />
+      <Ellipse fill="#1f93ff00" layoutX="331.0" layoutY="226.0" radiusX="24.0" radiusY="25.0" stroke="#fffefe" strokeType="INSIDE" />
+    </children>
+</AnchorPane>
